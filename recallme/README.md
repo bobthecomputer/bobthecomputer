@@ -29,8 +29,10 @@ produits rappelés détectés dans vos achats.
    ```bash
    python -m recallme.app
    ```
-
    Une fois le serveur lancé, ouvrez `http://localhost:5000` dans votre navigateur
-   pour voir les produits rappelés.
+   pour voir vos achats. Les lignes en rouge indiquent les produits rappelés.
+
+   Cette interface web utilise un petit gabarit HTML et la librairie Bootstrap
+   pour offrir un aperçu plus attrayant de vos données.
 
 Vous devriez voir la liste des produits achetés faisant l'objet d'un rappel sanitaire.
